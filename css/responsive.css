@@ -83,26 +83,23 @@
     padding-top: 40px;
     margin-top: 24px;
   }
-  #record .bnrwraper {
-    flex-direction: column-reverse;
-  }
 
-  .record-header h4 {
+  .record-header .heading {
     font-size: 24px;
     line-height: 36px;
+    max-width: 327px;
   }
 
-  .record-header p {
+  .record-header .note {
     padding: 0;
+    margin-top: 16px;
+    max-width: 327px;
   }
 
   .record-item {
     margin-top: 32px;
   }
 
-  .record-item-body p {
-    padding: 0 34px;
-  }
   /* record end */
 
   /* different start */
@@ -135,27 +132,24 @@
   /* banner end */
 
   /* record start */
-  #record {
-    padding-top: 40px;
-    margin-top: 24px;
+  .record-header .heading {
+    max-width: 390px;
+    font-size: 29px;
+    line-height: 50px;
   }
-
-  .record-header h4 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-
-  .record-header p {
-    padding: 0;
+  .record-header .note {
+    max-width: 430px;
   }
 
   .record-item {
-    padding: 24px 7px;
+    padding: 24px 25px;
+    max-width: 327px;
   }
 
   .record-item-body p {
-    padding: 0 34px;
+    margin: 0 auto;
   }
+
   /* record end */
 
   /* different start */
@@ -177,3 +171,56 @@
   /* footer end */
 }
 /* small device end */
+@media (min-width: 768px) and (max-width: 991.99px) {
+  /* common css end */
+  /* nav start */
+  /* nav end */
+
+  /* banner start */
+  /* banner end */
+
+  /* record start */
+  .record-header .heading {
+    max-width: 643px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .record-header .note {
+    font-size: 14px;
+    max-width: 511px;
+  }
+
+  .record-item-body p {
+    margin: 0 auto;
+  }
+
+  /* record end */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* common css end */
+  /* nav start */
+  /* nav end */
+
+  /* banner start */
+  /* banner end */
+
+  /* record start */
+  .record-header .heading {
+    max-width: 643px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .record-header .note {
+    font-size: 14px;
+    max-width: 511px;
+  }
+
+  .record-item-body p {
+    margin: 0 auto;
+  }
+
+  /* record end */
+}
