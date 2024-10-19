@@ -115,6 +115,22 @@
   /* pricing end */
 
   /* article start */
+  .article-heading h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .article-heading p {
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .article-item-content h6 {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .article-item-content p {
+    font-size: 11px;
+    line-height: 20px;
+  }
   /* article end */
 
   /* listener start */
