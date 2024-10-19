@@ -112,6 +112,7 @@ p {
 #banner .bnrtxt .note {
   margin-top: 16px;
   max-width: 368px;
+  line-height: 28px;
 }
 #banner .bnrtxt .bannerbtn {
   margin-top: 32px;
