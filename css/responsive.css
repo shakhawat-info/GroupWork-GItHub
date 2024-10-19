@@ -1,5 +1,5 @@
 /* extra small device start */
-@media (max-width: 575.98px) {
+@media (max-width: 575.99px) {
   /* common css start */
 
   /* common css end */
@@ -10,6 +10,27 @@
   /* banner end */
 
   /* record start */
+  #record {
+    padding-top: 40px;
+    margin-top: 24px;
+  }
+
+  .record-header h4 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .record-header p {
+    padding: 0;
+  }
+
+  .record-item {
+    margin-top: 32px;
+  }
+
+  .record-item-body p {
+    padding: 0 34px;
+  }
   /* record end */
 
   /* different start */
@@ -34,7 +55,7 @@
 
 /* small device start */
 @media (min-width: 576px) and (max-width: 767.98px) {
-      /* common css end */
+  /* common css end */
   /* nav start */
   /* nav end */
 
@@ -42,6 +63,27 @@
   /* banner end */
 
   /* record start */
+  #record {
+    padding-top: 40px;
+    margin-top: 24px;
+  }
+
+  .record-header h4 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .record-header p {
+    padding: 0;
+  }
+
+  .record-item {
+    padding: 24px 7px;
+  }
+
+  .record-item-body p {
+    padding: 0 34px;
+  }
   /* record end */
 
   /* different start */
