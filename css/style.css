@@ -97,6 +97,10 @@ p {
   font-size: 16px;
   text-transform: capitalize;
 }
+
+.navbar-brand {
+  margin-right: 0px;
+}
 /* nav end */
 
 /* banner start */
@@ -172,8 +176,8 @@ p {
   column-gap: 24px;
 }
 #banner .bnrtxt .bannercounter h3 {
-    display: flex;
-    align-items: baseline;
+  display: flex;
+  align-items: baseline;
 }
 #banner .bnrtxt .bannercounter h3 span {
   color: #f18701;
@@ -186,22 +190,70 @@ p {
   font-size: 16px;
   margin-left: 8px;
 }
-#banner .brnrightbox{
+#banner .brnrightbox {
   max-width: 510px;
   margin-left: auto;
   height: 100%;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
   position: relative;
 }
-#banner .brnrightbox .banenerfuture{
+#banner .brnrightbox .banenerfuture {
   position: absolute;
   bottom: 48px;
   left: -21%;
 }
 /* banner end */
 
-/* record start */
-/* record end */
+/* record start by Md. Salim Hossain Sagor*/
+#record {
+  background-color: #fafafa;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.record-header h4 {
+  font-size: 48px;
+  line-height: 70px;
+  color: #13132c;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.record-header p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #898998;
+  font-weight: 400;
+  padding: 0 20px;
+  margin-top: 24px;
+}
+
+.record-item {
+  margin-top: 48px;
+  padding: 24px 32px;
+  box-shadow: 10px 29px 72px rgba(15, 13, 35, 0.1);
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.record-item-body {
+  margin-top: 32px;
+}
+
+.record-item-body h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #13132c;
+}
+
+.record-item-body p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #898998;
+  margin-top: 16px;
+}
+/* record end by Md. Salim Hossain Sagor*/
 
 /* different start */
 /* different end */
