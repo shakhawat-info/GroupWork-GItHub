@@ -11,6 +11,7 @@
 }
 .container {
   max-width: 1200px;
+  margin: 0 auto;
 }
 ul,
 ol {
@@ -21,6 +22,9 @@ ol {
 a {
   text-decoration: none;
   display: inline-block;
+}
+img{
+  vertical-align: middle;
 }
 h1,
 h2,
@@ -203,7 +207,142 @@ p {
 /* different end */
 
 /* popular start */
+#popular{
+  background-color: #FAFAFA;
+  padding: 64px 0;
+} 
+#popular .title{
+  text-align: center;
+} 
 
+#popular .title h2 {
+  font-size: 48px;
+  width: 384px;
+  line-height: 70px;
+  font-weight: 600;
+  margin: 0 auto;
+  color: #13132C;
+}
+#popular .title p {
+  font-size: 14px;
+  width: 386px;
+  color: #898998;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 24px 0 40px 0;
+}
+#popular .btn {
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+#popular .btn button {
+  font-size: 14px;
+  color: #898998;
+  line-height: 16px;
+  font-weight: 500;
+  padding: 16px 32px;
+  border: 1px solid #898998;
+  background-color: transparent;
+  transition: .5s;
+}
+#popular .btn button:hover {
+  color: #ffffff;
+  border: 1px solid #7678ED;
+  background-color: #7678ED;
+}
+
+button {
+  &:hover {
+    animation: rotate 0.7s ease-in-out both;
+    span {
+      animation: storm 0.7s ease-in-out both;
+      animation-delay: 0.06s;
+    }
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-3deg) translate3d(0, 0, 0);
+  }
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+@keyframes storm {
+  0% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+  25% {
+    transform: translate3d(4px, 0, 0) translateZ(0);
+  }
+  50% {
+    transform: translate3d(-3px, 0, 0) translateZ(0);
+  }
+  75% {
+    transform: translate3d(2px, 0, 0) translateZ(0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+}
+
+#popular .main {
+  margin-top: 48px;
+}
+#popular .item {
+  background-color: #fff;
+  margin-bottom: 24px;
+}
+
+#popular .item img {
+  width: 100%;
+  padding: 24px 10px;
+}
+
+#popular .sidebyside {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+#popular .sidebyside .text h4{
+  font-size: 18px;
+  font-weight: 500;
+}
+#popular .sidebyside .text p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #898998;
+  margin: 10px 0 24px;
+}
+#popular .sidebyside .icon  {
+  border: 1px solid #7678ED;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  position: relative;
+}
+#popular .sidebyside .icon ion-icon {
+  font-size: 25px;
+  color: #7678ED;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
 /* popular end */
 
 /* pricing start */
