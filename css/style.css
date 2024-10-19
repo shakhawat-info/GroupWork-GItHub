@@ -1,0 +1,52 @@
+/* common css start */
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Commissioner", sans-serif;
+}
+.container {
+  max-width: 1200px;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+/* common css end */
+
+/* nav start */
+/* nav end */
+
+/* banner start */
+/* banner end */
+
+/* record start */
+/* record end */
+
+/* different start */
+/* different end */
+
+/* popular start */
+/* popular end */
+
+/* pricing start */
+/* pricing end */
+
+/* article start */
+/* article end */
+
+/* listener start */
+/* listener end */
+
+/* footer start */
+/* footer end */

@@ -1,0 +1,65 @@
+/* extra small device start */
+@media (max-width: 575.98px) {
+  /* common css start */
+
+  /* common css end */
+  /* nav start */
+  /* nav end */
+
+  /* banner start */
+  /* banner end */
+
+  /* record start */
+  /* record end */
+
+  /* different start */
+  /* different end */
+
+  /* popular start */
+  /* popular end */
+
+  /* pricing start */
+  /* pricing end */
+
+  /* article start */
+  /* article end */
+
+  /* listener start */
+  /* listener end */
+
+  /* footer start */
+  /* footer end */
+}
+/* extra small device end */
+
+/* small device start */
+@media (min-width: 576px) and (max-width: 767.98px) {
+      /* common css end */
+  /* nav start */
+  /* nav end */
+
+  /* banner start */
+  /* banner end */
+
+  /* record start */
+  /* record end */
+
+  /* different start */
+  /* different end */
+
+  /* popular start */
+  /* popular end */
+
+  /* pricing start */
+  /* pricing end */
+
+  /* article start */
+  /* article end */
+
+  /* listener start */
+  /* listener end */
+
+  /* footer start */
+  /* footer end */
+}
+/* small device end */
