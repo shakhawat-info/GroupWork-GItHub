@@ -25,6 +25,28 @@ a {
 /* common css end */
 
 /* nav start */
+#navigation {
+  padding: 32px 0;
+}
+#navigation .navbar-nav {
+  column-gap: 49px;
+}
+#navigation .navbar-nav .nav-link {
+  padding-left: 0;
+  padding-right: 0;
+  color: #62636c;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+#navigation .subscribe {
+  padding: 16px 32px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  background-color: #7678ED;
+  text-transform: capitalize;
+}
 /* nav end */
 
 /* banner start */
