@@ -259,6 +259,125 @@ p {
 /* popular end */
 
 /* pricing start */
+#pricing{
+  padding: 96px 0px;
+}
+.pricing-header h2{
+ font-weight: 600;
+  font-size: 48px;
+  line-height: 70px;
+  color: #13132C;
+  max-width: 554px;
+  margin: 0 auto;
+
+}
+.pricing-header p{
+  color: #898998;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  max-width:386px ;
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 48px;
+
+}
+
+#pricing .btn-group{
+  display: flex;
+  column-gap: 24px;
+  justify-content: center;
+}
+#pricing .btn-group button{
+  color: #898998;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 16px 32px;
+  border: 1px solid #DDDDDD;
+  background-color: transparent;
+}
+#pricing .btn-group button:hover{
+  background-color: #7678ED;
+  color: #fff;
+}
+#pricing .pricing-box{
+  margin-top: 48px;
+} 
+#pricing .pricing-box .item {
+  box-shadow: 10px 32px 72px rgba(15, 13, 35, 0.1);
+  padding: 24px;
+} 
+
+#pricing .pricing-box .item h3 {
+  color: #13132C;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+} 
+#pricing .pricing-box .item p {
+  color: #898998;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  max-width: 240px;
+  margin: 24px auto;
+
+} 
+#pricing .pricing-box .item h4 {
+  color: #13132C;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+} 
+#pricing .pricing-box .item h4 span {
+  color: #898998;
+  font-size: 16px;
+  font-weight: 400;
+} 
+#pricing .pricing-box .item .item-list {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0px;
+  margin-bottom: 8px;
+} 
+#pricing .pricing-box .item .item-list ul li{
+  font-weight: 500;
+  color: #13132C;
+  font-size: 16px;
+}
+#pricing .pricing-box .item .item-list ul li i {
+  margin-right: 12px;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  text-align: center;
+  font-size: 7px;
+  background-color: #7678ED;
+  color: #fff;
+  margin-bottom: 24px;
+} 
+#pricing .pricing-box .item  button{
+padding: 15px 120px;
+border: 1px solid #7678ED;
+background-color: transparent;
+font-weight: 600;
+color: #7678ED;
+} 
+
+/* .pricing-box .item:hover{
+  background-color: #7678ED;
+}
+
+.pricing-box .item:hover .item h3{
+color: #fff;
+} */
+
+
 /* pricing end */
 
 /* article start */
