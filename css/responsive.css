@@ -112,6 +112,22 @@
   /* popular end */
 
   /* pricing start */
+  #pricing {
+    padding: 56px 0px;
+}
+  .pricing-header h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  #pricing .pricing-box .item button {
+    padding: 15px 107px;
+  }
+
+  #pricing .pricing-box .item {
+    margin-bottom: 24px;
+}
+
   /* pricing end */
 
   /* article start */
@@ -165,6 +181,29 @@
   /* popular end */
 
   /* pricing start */
+  #pricing .pricing-box .item {
+    margin-top: 30px;
+  }
+
+  #pricing .pricing-box .item button {
+    padding: 10px 64px;
+    width: 100%;
+}
+
+#pricing .pricing-box .item p {
+ font-size: 12px;
+  text-align: center;
+}
+
+#pricing .pricing-box .item h3 {
+  font-size: 27px;
+}
+#pricing .pricing-box .item .item-list ul li {
+  font-size: 14px;
+}
+
+
+
   /* pricing end */
 
   /* article start */
@@ -177,3 +216,103 @@
   /* footer end */
 }
 /* small device end */
+
+/* Medium device Start */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  /* pricing start */
+
+ #pricing .pricing-box .item {
+  padding: 15px;
+}
+ #pricing .pricing-box .item {
+  margin-top: 30px;
+}
+
+#pricing .pricing-box .item button {
+  padding: 10px 57px;
+  width: 100%;
+}
+
+#pricing .pricing-box .item p {
+font-size: 12px;
+text-align: center;
+}
+
+#pricing .pricing-box .item h3 {
+font-size: 25px;
+}
+#pricing .pricing-box .item .item-list ul li {
+font-size: 13px;
+}
+
+
+
+/* pricing end */
+
+
+
+
+
+}
+
+
+  /* Medium device End */
+
+  /* Large device Start */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    /* pricing start */
+  
+   #pricing .pricing-box .item {
+    padding: 15px;
+  }
+   #pricing .pricing-box .item {
+    margin-top: 30px;
+  }
+  
+  #pricing .pricing-box .item button {
+    padding: 10px 57px;
+    width: 100%;
+  }
+  
+  #pricing .pricing-box .item p {
+  font-size: 12px;
+  text-align: center;
+  }
+  
+  #pricing .pricing-box .item h3 {
+  font-size: 25px;
+  }
+  #pricing .pricing-box .item .item-list ul li {
+  font-size: 13px;
+  }
+  
+  
+  
+  /* pricing end */
+  
+  
+  
+  
+  
+  }
+  /* Large device End */
