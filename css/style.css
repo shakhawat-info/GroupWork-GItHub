@@ -225,6 +225,12 @@ p {
   text-align: center;
   background-color: #ffffff;
   max-width: 282px;
+  transition: all linear 0.3s;
+}
+
+.record-item:hover {
+  background-color: #fafafa;
+  cursor: pointer;
 }
 
 .record-item-body {

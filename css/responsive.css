@@ -93,9 +93,12 @@
   .record-header .note {
     padding: 0;
     margin-top: 16px;
-    max-width: 327px;
+    max-width: 340px;
   }
 
+  .record-header .note span {
+    display: none;
+  }
   .record-item {
     margin-top: 32px;
   }
@@ -207,17 +210,6 @@
   /* banner end */
 
   /* record start */
-  .record-header .heading {
-    max-width: 643px;
-    font-size: 40px;
-    line-height: 60px;
-  }
-
-  .record-header .note {
-    font-size: 14px;
-    max-width: 511px;
-  }
-
   .record-item-body p {
     margin: 0 auto;
   }
