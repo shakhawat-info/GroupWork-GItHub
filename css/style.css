@@ -307,6 +307,9 @@ p {
   font-weight: 400;
 }
 
+.different_btn {
+  margin-top: 42px;
+}
 .different_btn a{
   width: 125px;
 }
