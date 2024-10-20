@@ -79,6 +79,30 @@
   /* banner end */
 
   /* record start */
+  #record {
+    padding-top: 40px;
+    margin-top: 24px;
+  }
+
+  .record-header .heading {
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 327px;
+  }
+
+  .record-header .note {
+    padding: 0;
+    margin-top: 16px;
+    max-width: 340px;
+  }
+
+  .record-header .note span {
+    display: none;
+  }
+  .record-item {
+    margin-top: 32px;
+  }
+
   /* record end */
 
   /* different start */
@@ -111,6 +135,26 @@
   /* popular end */
 
   /* pricing start */
+  #pricing {
+    padding: 56px 0px;
+  }
+  .pricing-header h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  #pricing .pricing-box {
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+  }
+  #pricing .pricing-box .item button {
+    padding: 15px 107px;
+  }
+
+  #pricing .pricing-box .item {
+    margin-bottom: 24px;
+  }
+
   /* pricing end */
 
   /* article start */
@@ -135,6 +179,24 @@
   /* banner end */
 
   /* record start */
+  .record-header .heading {
+    max-width: 390px;
+    font-size: 29px;
+    line-height: 50px;
+  }
+  .record-header .note {
+    max-width: 430px;
+  }
+
+  .record-item {
+    padding: 24px 25px;
+    max-width: 327px;
+  }
+
+  .record-item-body p {
+    margin: 0 auto;
+  }
+
   /* record end */
 
   /* different start */
@@ -144,6 +206,26 @@
   /* popular end */
 
   /* pricing start */
+  #pricing .pricing-box .item {
+    margin-top: 30px;
+  }
+
+  #pricing .pricing-box .item button {
+    padding: 10px 64px;
+    width: 100%;
+  }
+
+  #pricing .pricing-box .item p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #pricing .pricing-box .item h3 {
+    font-size: 27px;
+  }
+  #pricing .pricing-box .item .item-list ul li {
+    font-size: 14px;
+  }
   /* pricing end */
 
   /* article start */
@@ -156,3 +238,145 @@
   /* footer end */
 }
 /* small device end */
+
+/* Medium device Start */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* nav start */
+  /* nav end */
+
+  /* banner start */
+  /* banner end */
+
+  /* record start */
+  .record-header .heading {
+    max-width: 643px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .record-header .note {
+    font-size: 14px;
+    max-width: 511px;
+  }
+
+  .record-item-body p {
+    margin: 0 auto;
+  }
+
+  /* record end */
+
+  /* different start */
+  /* different end */
+
+  /* popular start */
+  /* popular end */
+
+  /* pricing start */
+
+  #pricing .pricing-box .item {
+    padding: 15px;
+  }
+  #pricing .pricing-box .item {
+    margin-top: 30px;
+  }
+
+  #pricing .pricing-box .item button {
+    padding: 10px 57px;
+    width: 100%;
+  }
+
+  #pricing .pricing-box .item p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #pricing .pricing-box .item h3 {
+    font-size: 25px;
+  }
+  #pricing .pricing-box .item .item-list ul li {
+    font-size: 13px;
+  }
+
+  /* pricing end */
+  /* article start */
+  /* article end */
+
+  /* listener start */
+  /* listener end */
+
+  /* footer start */
+  /* footer end */
+}
+/* Medium device End */
+
+/* Large device Start */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* nav start */
+  /* nav end */
+
+  /* banner start */
+  /* banner end */
+  
+  /* record start */
+  /* record end */
+
+  /* different start */
+  /* different end */
+
+  /* popular start */
+  /* popular end */
+
+  /* pricing start */
+
+  #pricing .pricing-box .item {
+    padding: 15px;
+  }
+  #pricing .pricing-box .item {
+    margin-top: 30px;
+  }
+
+  #pricing .pricing-box .item button {
+    padding: 10px 57px;
+    width: 100%;
+  }
+
+  #pricing .pricing-box .item p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #pricing .pricing-box .item h3 {
+    font-size: 25px;
+  }
+  #pricing .pricing-box .item .item-list ul li {
+    font-size: 13px;
+  }
+
+  /* pricing end */
+
+  /* article start */
+  /* article end */
+
+  /* listener start */
+  /* listener end */
+
+  /* footer start */
+  /* footer end */
+}
+/* Large device End */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* common css end */
+  /* nav start */
+  /* nav end */
+
+  /* banner start */
+  /* banner end */
+
+  /* record start */
+  .record-item-body p {
+    margin: 0 auto;
+  }
+
+  /* record end */
+}
