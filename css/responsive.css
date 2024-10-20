@@ -79,13 +79,9 @@
   /* banner end */
 
   /* record start */
-<<<<<<< HEAD
   #record {
     padding-top: 40px;
     margin-top: 24px;
-  }
-  #record .bnrwraper {
-    flex-direction: column-reverse;
   }
 
   .record-header h4 {
@@ -104,8 +100,6 @@
   .record-item-body p {
     padding: 0 34px;
   }
-=======
->>>>>>> parent of f909572 (responsive due)
   /* record end */
 
   /* different start */
@@ -130,7 +124,7 @@
 
 /* small device start */
 @media (min-width: 576px) and (max-width: 767.98px) {
-      /* common css end */
+  /* common css end */
   /* nav start */
   /* nav end */
 
