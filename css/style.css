@@ -208,6 +208,81 @@ p {
 /* record end */
 
 /* different start */
+#different{
+  padding-top: 116px;
+  padding-bottom: 116px;
+}
+.different_left h4{
+  color: #13132C;
+  font-family: Commissioner;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px; 
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.different_left p{
+  font-family: Commissioner;
+  color: #898998;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-right: 85px;
+
+}
+
+.different_check i{
+  height: 24px;
+  width: 24px;
+  background: #F18701;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #FFFFFF;
+  font-size: 7px;
+}
+.different_left ul{
+  margin-top: 32px;
+}
+.different_left li{
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  margin-bottom: 15px;
+}
+.different_left span{
+  color: #13132C;
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.different_btn button{
+padding: 18px 40px;
+background: #7678ED;
+border: none;
+color: #FFFFFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+margin-top: 40px;
+border: 1 px solid #7678ED;
+}
+.different_btn button:hover{
+background: #40419c;
+}
+
+.different_right img{
+  width: 100%;
+  
+}
+#different .row{
+  justify-content: space-between;
+}
 /* different end */
 
 /* popular start */
