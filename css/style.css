@@ -77,6 +77,13 @@ p {
     left: 25%;
   }
 }
+.common-btn {
+  padding: 18px 40px;
+  border: 1px solid #7678ed;
+  color: #7678ed;
+  font-size: 16px;
+  font-weight: 600;
+}
 /* common css end */
 
 /* nav start */
@@ -265,6 +272,62 @@ p {
 /* article end */
 
 /* listener start */
+#listener {
+  padding: 96px 0 110px;
+}
+#listener .listwraper {
+  row-gap: 56px;
+}
+#listener .listwraper .listitembox{
+  position: relative;
+}
+#listener .listwraper .listitembox .listitemwrap{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#listener .lisbtn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 100%;
+}
+#listener .listwraper .listitemwrap .item {
+  padding: 23px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+#listener .listwraper .listitemwrap .item p {
+  color: #62636c;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 28px;
+}
+#listener .listwraper .listitemwrap .item .profile {
+  display: flex;
+  column-gap: 16px;
+  margin-top: 32px;
+}
+#listener .listwraper .listitemwrap .item .profile .pic {
+  width: 56px;
+  height: 56px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#listener .listwraper .listitemwrap .item .profile .name h3 {
+  color: #13132c;
+  font-size: 18px;
+  font-weight: 500;
+}
+#listener .listwraper .listitemwrap .item .profile .name h5 {
+  color: #898998;
+  font-size: 16px;
+  margin-top: 10px;
+}
 /* listener end */
 
 /* footer start */
