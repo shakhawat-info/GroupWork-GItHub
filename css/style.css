@@ -176,8 +176,8 @@ p {
   column-gap: 24px;
 }
 #banner .bnrtxt .bannercounter h3 {
-    display: flex;
-    align-items: baseline;
+  display: flex;
+  align-items: baseline;
 }
 #banner .bnrtxt .bannercounter h3 span {
   color: #f18701;
@@ -190,14 +190,14 @@ p {
   font-size: 16px;
   margin-left: 8px;
 }
-#banner .brnrightbox{
+#banner .brnrightbox {
   max-width: 510px;
   margin-left: auto;
   height: 100%;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
   position: relative;
 }
-#banner .brnrightbox .banenerfuture{
+#banner .brnrightbox .banenerfuture {
   position: absolute;
   bottom: 48px;
   left: -21%;
@@ -226,13 +226,67 @@ p {
 #listener .listwraper {
   row-gap: 56px;
 }
-#listener .listwraper .listitembox{
+#listener .listwraper .listitembox {
   position: relative;
 }
-#listener .listwraper .listitembox .listitemwrap{
+#listener .listwraper .listitembox .listitemwrap {
   position: absolute;
   top: 0;
   left: 0;
+}
+#listener .listwraper .listitembox .listitemwrap .slider {
+  display: flex;
+  column-gap: 24px;
+}
+#listener .listwraper .listitembox .listitemwrap .slidbtn {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#listener .listwraper .listitembox .listitemwrap .slidbtn svg:first-child {
+  margin-right: 32px;
+}
+#listener .listwraper .listitembox .listitemwrap .slidbtn svg:last-child {
+  margin-left: 32px;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+#listener .listwraper .listitembox .listitemwrap .slidbtn svg {
+  fill: transparent;
+  stroke: #fff;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+#listener .listwraper .listitembox .listitemwrap .slidbtn svg:hover {
+  fill: #fff;
+  stroke: #13132c;
+}
+#listener .listwraper .listitembox .listitemwrap .slidbtn span {
+  width: 10px;
+  height: 10px;
+  padding: 3px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: inline-block;
+}
+#listener .listwraper .listitembox .listitemwrap .slidbtn span.active {
+  outline: 3px solid white;
+  border: 8px solid #13132c;
+  background: white;
+}
+#listener .listwraper .listitembox .listitemwrap .slidbtn span:nth-child(3) {
+  margin: 0 20px;
 }
 #listener .lisbtn {
   display: flex;
@@ -279,4 +333,46 @@ p {
 /* listener end */
 
 /* footer start */
+#footer {
+  background-color: #13132c;
+  padding: 234px 0 0;
+}
+#footer .footwrap {
+  margin-top: 64px;
+}
+#footer .footwrap p.note {
+  max-width: 320px;
+  margin-top: 24px;
+}
+#footer .footwrap h2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#footer .footwrap ul {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+#footer .footwrap ul li a {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 14px;
+  line-height: 16px;
+}
+#footer .footwrap ul li a img {
+  margin-right: 8px;
+}
+#footer .copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  margin-top: 48px;
+  padding: 24px 0 32px;
+  text-align: center;
+}
+#footer .copyright a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+}
 /* footer end */
