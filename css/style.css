@@ -204,8 +204,53 @@ p {
 }
 /* banner end */
 
-/* record start */
-/* record end */
+/* record start by Md. Salim Hossain Sagor*/
+#record {
+  background-color: #fafafa;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.record-header .heading {
+  max-width: 643px;
+}
+
+.record-header .note {
+  padding: 0 20px;
+  margin-top: 24px;
+  max-width: 620px;
+}
+
+.record-item {
+  margin-top: 48px;
+  padding: 24px 32px;
+  box-shadow: 10px 29px 72px rgba(15, 13, 35, 0.1);
+  text-align: center;
+  background-color: #ffffff;
+  max-width: 282px;
+  transition: all linear 0.3s;
+}
+
+.record-item:hover {
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+.record-item-body {
+  margin-top: 32px;
+}
+
+.record-item-body h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #13132c;
+}
+
+.record-item-body .note {
+  margin-top: 16px;
+  max-width: 212px;
+}
+/* record end by Md. Salim Hossain Sagor*/
 
 /* different start */
 /* different end */
