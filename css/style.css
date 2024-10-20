@@ -54,6 +54,7 @@ p {
   background-color: #7678ed;
   text-transform: capitalize;
   position: relative;
+  overflow: hidden;
 }
 .cmnbtn .btnbx {
   position: absolute;
@@ -306,16 +307,12 @@ p {
   font-weight: 400;
 }
 
-.different_btn button{
-padding: 18px 40px;
-background: #7678ED;
-border: none;
-color: #FFFFFF;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-margin-top: 40px;
-border: 1 px solid #7678ED;
+.different_btn a{
+  width: 125px;
+}
+.different_btn a span{
+  color: #fff;
+
 }
 .different_btn button:hover{
 background: #40419c;
