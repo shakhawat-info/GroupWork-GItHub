@@ -281,10 +281,10 @@ p {
   margin-bottom: 48px;
 }
 
-#pricing .btn-group {
-  display: flex;
-  column-gap: 24px;
+#pricing #myTab{
   justify-content: center;
+  column-gap: 24px;
+  border: none;
 }
 #pricing .btn-group button {
   color: #898998;
@@ -293,17 +293,31 @@ p {
   padding: 16px 32px;
   border: 1px solid #dddddd;
   background-color: transparent;
+  text-align: center;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
 }
-#pricing .btn-group button:hover {
+#pricing .btn-group button.active {
   background-color: #7678ed;
   color: #fff;
 }
 #pricing .pricing-box {
   margin-top: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 24px;
 }
 #pricing .pricing-box .item {
   box-shadow: 10px 32px 72px rgba(15, 13, 35, 0.1);
   padding: 24px;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
 }
 
 #pricing .pricing-box .item h3 {
