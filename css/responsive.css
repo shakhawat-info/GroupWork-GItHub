@@ -114,7 +114,7 @@
   /* pricing start */
   #pricing {
     padding: 56px 0px;
-}
+  }
   .pricing-header h2 {
     font-weight: 600;
     font-size: 24px;
@@ -126,7 +126,7 @@
 
   #pricing .pricing-box .item {
     margin-bottom: 24px;
-}
+  }
 
   /* pricing end */
 
@@ -186,22 +186,19 @@
   #pricing .pricing-box .item button {
     padding: 10px 64px;
     width: 100%;
-}
+  }
 
-#pricing .pricing-box .item p {
- font-size: 12px;
-  text-align: center;
-}
+  #pricing .pricing-box .item p {
+    font-size: 12px;
+    text-align: center;
+  }
 
-#pricing .pricing-box .item h3 {
-  font-size: 27px;
-}
-#pricing .pricing-box .item .item-list ul li {
-  font-size: 14px;
-}
-
-
-
+  #pricing .pricing-box .item h3 {
+    font-size: 27px;
+  }
+  #pricing .pricing-box .item .item-list ul li {
+    font-size: 14px;
+  }
   /* pricing end */
 
   /* article start */
@@ -217,105 +214,6 @@
 
 /* Medium device Start */
 @media (min-width: 768px) and (max-width: 991.98px) {
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
-  /* pricing start */
-
- #pricing .pricing-box .item {
-  padding: 15px;
-}
- #pricing .pricing-box .item {
-  margin-top: 30px;
-}
-
-#pricing .pricing-box .item button {
-  padding: 10px 57px;
-  width: 100%;
-}
-
-#pricing .pricing-box .item p {
-font-size: 12px;
-text-align: center;
-}
-
-#pricing .pricing-box .item h3 {
-font-size: 25px;
-}
-#pricing .pricing-box .item .item-list ul li {
-font-size: 13px;
-}
-
-
-
-/* pricing end */
-
-
-
-
-
-}
-
-
-  /* Medium device End */
-
-  /* Large device Start */
-  @media (min-width: 992px) and (max-width: 1199.98px) {
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
-    /* pricing start */
-  
-   #pricing .pricing-box .item {
-    padding: 15px;
-  }
-   #pricing .pricing-box .item {
-    margin-top: 30px;
-  }
-  
-  #pricing .pricing-box .item button {
-    padding: 10px 57px;
-    width: 100%;
-  }
-  
-  #pricing .pricing-box .item p {
-  font-size: 12px;
-  text-align: center;
-  }
-  
-  #pricing .pricing-box .item h3 {
-  font-size: 25px;
-  }
-  #pricing .pricing-box .item .item-list ul li {
-  font-size: 13px;
-  }
-  
-  
-  
-  /* pricing end */
-  
-  
-  
-  
-  
-  }
-  /* Large device End */
-@media (min-width: 768px) and (max-width: 991.99px) {
-  /* common css end */
   /* nav start */
   /* nav end */
 
@@ -339,7 +237,106 @@ font-size: 13px;
   }
 
   /* record end */
+
+  /* different start */
+  /* different end */
+
+  /* popular start */
+  /* popular end */
+
+  /* pricing start */
+
+  #pricing .pricing-box .item {
+    padding: 15px;
+  }
+  #pricing .pricing-box .item {
+    margin-top: 30px;
+  }
+
+  #pricing .pricing-box .item button {
+    padding: 10px 57px;
+    width: 100%;
+  }
+
+  #pricing .pricing-box .item p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #pricing .pricing-box .item h3 {
+    font-size: 25px;
+  }
+  #pricing .pricing-box .item .item-list ul li {
+    font-size: 13px;
+  }
+
+  /* pricing end */
+  /* article start */
+  /* article end */
+
+  /* listener start */
+  /* listener end */
+
+  /* footer start */
+  /* footer end */
 }
+/* Medium device End */
+
+/* Large device Start */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* nav start */
+  /* nav end */
+
+  /* banner start */
+  /* banner end */
+  
+  /* record start */
+  /* record end */
+
+  /* different start */
+  /* different end */
+
+  /* popular start */
+  /* popular end */
+
+  /* pricing start */
+
+  #pricing .pricing-box .item {
+    padding: 15px;
+  }
+  #pricing .pricing-box .item {
+    margin-top: 30px;
+  }
+
+  #pricing .pricing-box .item button {
+    padding: 10px 57px;
+    width: 100%;
+  }
+
+  #pricing .pricing-box .item p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #pricing .pricing-box .item h3 {
+    font-size: 25px;
+  }
+  #pricing .pricing-box .item .item-list ul li {
+    font-size: 13px;
+  }
+
+  /* pricing end */
+
+  /* article start */
+  /* article end */
+
+  /* listener start */
+  /* listener end */
+
+  /* footer start */
+  /* footer end */
+}
+/* Large device End */
 
 @media (min-width: 992px) and (max-width: 1199px) {
   /* common css end */
