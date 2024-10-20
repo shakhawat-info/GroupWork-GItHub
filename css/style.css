@@ -23,7 +23,7 @@ a {
   text-decoration: none;
   display: inline-block;
 }
-img{
+img {
   vertical-align: middle;
 }
 h1,
@@ -257,21 +257,21 @@ p {
 /* record end by Md. Salim Hossain Sagor*/
 
 /* different start */
-#different{
+#different {
   padding-top: 116px;
   padding-bottom: 116px;
 }
-.different_left h4{
-  color: #13132C;
+.different_left h4 {
+  color: #13132c;
   font-family: Commissioner;
   font-size: 46px;
   font-style: normal;
   font-weight: 600;
-  line-height: 70px; 
+  line-height: 70px;
   text-transform: capitalize;
   margin-bottom: 16px;
 }
-.different_left p{
+.different_left p {
   font-family: Commissioner;
   color: #898998;
   font-size: 14px;
@@ -279,69 +279,64 @@ p {
   font-weight: 400;
   line-height: 24px;
   padding-right: 85px;
-
 }
 
-.different_check i{
+.different_check i {
   height: 24px;
   width: 24px;
-  background: #F18701;
+  background: #f18701;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 7px;
 }
-.different_left ul{
+.different_left ul {
   margin-top: 32px;
 }
-.different_left li{
+.different_left li {
   display: flex;
   align-items: center;
   column-gap: 12px;
   margin-bottom: 15px;
 }
-.different_left span{
-  color: #13132C;
+.different_left span {
+  color: #13132c;
   font-family: Commissioner;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
 }
 
-.different_btn button{
-padding: 18px 40px;
-background: #7678ED;
-border: none;
-color: #FFFFFF;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-margin-top: 40px;
-border: 1 px solid #7678ED;
-}
-.different_btn button:hover{
-background: #40419c;
+.different_btn button {
+  padding: 18px 40px;
+  background: #7678ed;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 40px;
+  border: 1 px solid #7678ed;
 }
 
-.different_right img{
+.different_right img {
   width: 100%;
-  
 }
-#different .row{
+#different .row {
   justify-content: space-between;
 }
 /* different end */
 
 /* popular start */
-#popular{
-  background-color: #FAFAFA;
+#popular {
+  background-color: #fafafa;
   padding: 64px 0;
-} 
-#popular .title{
+}
+#popular .title {
   text-align: center;
-} 
+}
 
 #popular .title h2 {
   font-size: 48px;
@@ -349,7 +344,7 @@ background: #40419c;
   line-height: 70px;
   font-weight: 600;
   margin: 0 auto;
-  color: #13132C;
+  color: #13132c;
 }
 #popular .title p {
   font-size: 14px;
@@ -366,20 +361,31 @@ background: #40419c;
   justify-content: center;
 }
 
-#popular .btn button {
+#popular #myTabpopular {
+  justify-content: center;
+  column-gap: 16px;
+  border: 0;
+}
+#popular .btn-popular button {
   font-size: 14px;
   color: #898998;
   line-height: 16px;
   font-weight: 500;
   padding: 16px 32px;
   border: 1px solid #898998;
+  border-radius: 0;
   background-color: transparent;
-  transition: .5s;
+  transition: 0.5s;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
 }
-#popular .btn button:hover {
+#popular .btn-popular button.active ,
+#popular .btn-popular button:hover {
   color: #ffffff;
-  border: 1px solid #7678ED;
-  background-color: #7678ED;
+  border: 1px solid #7678ed;
+  background-color: #7678ed;
 }
 
 button {
@@ -429,10 +435,15 @@ button {
 
 #popular .main {
   margin-top: 48px;
+  row-gap: 24px;
 }
 #popular .item {
   background-color: #fff;
-  margin-bottom: 24px;
+  padding: 24px;
+}
+#popular .item .popuimage{
+  height: 235px;
+  background-color: #C4C4C4;
 }
 
 #popular .item img {
@@ -443,20 +454,23 @@ button {
 #popular .sidebyside {
   display: flex;
   justify-content: space-between;
-  margin-left: 10px;
+  margin-top: 27px;
 }
-#popular .sidebyside .text h4{
+#popular .sidebyside .text h4 {
   font-size: 18px;
   font-weight: 500;
 }
-#popular .sidebyside .text p{
+#popular .sidebyside .text p {
   font-size: 14px;
   font-weight: 400;
   color: #898998;
   margin: 10px 0 24px;
 }
-#popular .sidebyside .icon  {
-  border: 1px solid #7678ED;
+#popular .sidebyside .icon {
+  border-top: 1px solid #7678ed;
+  border-left: 1px solid #7678ed;
+  border-right: 1px solid #F2F2F2;
+  border-bottom: 1px solid #F2F2F2;
   border-radius: 50%;
   width: 48px;
   height: 48px;
@@ -465,12 +479,12 @@ button {
 }
 #popular .sidebyside .icon ion-icon {
   font-size: 25px;
-  color: #7678ED;
+  color: #7678ed;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-} 
+}
 /* popular end */
 
 /* pricing start */
@@ -496,7 +510,7 @@ button {
   margin-bottom: 48px;
 }
 
-#pricing #myTab{
+#pricing #myTab {
   justify-content: center;
   column-gap: 24px;
   border: none;
@@ -528,11 +542,11 @@ button {
 #pricing .pricing-box .item {
   box-shadow: 10px 32px 72px rgba(15, 13, 35, 0.1);
   padding: 24px;
-  transition: .4s;
-  -webkit-transition: .4s;
-  -moz-transition: .4s;
-  -ms-transition: .4s;
-  -o-transition: .4s;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 
 #pricing .pricing-box .item h3 {
@@ -540,11 +554,11 @@ button {
   font-weight: 500;
   font-size: 32px;
   text-align: center;
-  transition: .4s;
-  -webkit-transition: .4s;
-  -moz-transition: .4s;
-  -ms-transition: .4s;
-  -o-transition: .4s;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 #pricing .pricing-box .item p {
   color: #898998;
@@ -553,32 +567,32 @@ button {
   line-height: 24px;
   max-width: 240px;
   margin: 24px auto;
-  transition: .4s;
-  -webkit-transition: .4s;
-  -moz-transition: .4s;
-  -ms-transition: .4s;
-  -o-transition: .4s;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 #pricing .pricing-box .item h4 {
   color: #13132c;
   font-weight: 500;
   font-size: 40px;
   text-align: center;
-  transition: .4s;
-  -webkit-transition: .4s;
-  -moz-transition: .4s;
-  -ms-transition: .4s;
-  -o-transition: .4s;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 #pricing .pricing-box .item h4 span {
   color: #898998;
   font-size: 16px;
   font-weight: 400;
-  transition: .4s;
-  -webkit-transition: .4s;
-  -moz-transition: .4s;
-  -ms-transition: .4s;
-  -o-transition: .4s;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 #pricing .pricing-box .item .item-list {
   display: flex;
@@ -590,11 +604,11 @@ button {
   font-weight: 500;
   color: #13132c;
   font-size: 16px;
-  transition: .4s;
-  -webkit-transition: .4s;
-  -moz-transition: .4s;
-  -ms-transition: .4s;
-  -o-transition: .4s;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 #pricing .pricing-box .item .item-list ul li i {
   margin-right: 12px;
@@ -611,11 +625,11 @@ button {
   background-color: #7678ed;
   color: #fff;
   margin-bottom: 24px;
-  transition: .4s;
-  -webkit-transition: .4s;
-  -moz-transition: .4s;
-  -ms-transition: .4s;
-  -o-transition: .4s;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 #pricing .pricing-box .item .button {
   padding: 15px 120px;
@@ -623,11 +637,11 @@ button {
   background-color: transparent;
   font-weight: 600;
   color: #7678ed;
-  transition: .4s;
-  -webkit-transition: .4s;
-  -moz-transition: .4s;
-  -ms-transition: .4s;
-  -o-transition: .4s;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 
 .pricing-box .item:hover {
@@ -682,6 +696,7 @@ button {
 .article-item-img {
   height: 240px;
   overflow: hidden;
+  background-color: #C4C4C4;
 }
 .article-item-img img {
   width: 100%;
@@ -722,6 +737,7 @@ button {
   font-weight: 500;
   font-size: 18px;
   color: #7678ed;
+  background-color: transparent;
 }
 /* article end */
 
