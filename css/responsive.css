@@ -103,7 +103,8 @@
 
 /* small device start */
 @media (min-width: 576px) and (max-width: 767.98px) {
-      /* common css end */
+  /* common css start */
+  /* common css end */
   /* nav start */
   /* nav end */
 
