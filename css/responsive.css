@@ -1,12 +1,81 @@
 /* extra small device start */
-@media (max-width: 575.99px) {
+@media (max-width: 575.98px) {
   /* common css start */
-
+  .cmnbtn {
+    overflow: hidden;
+    height: 40px;
+  }
   /* common css end */
   /* nav start */
+  #navigation {
+    padding: 40px 0;
+  }
+  .navbar-brand {
+    width: 151px;
+  }
+  .navbar-brand img {
+    width: 100%;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  #navigation .navbar-nav .nav-link {
+    font-size: 14px;
+  }
   /* nav end */
 
   /* banner start */
+  #banner {
+    padding: 12px 0 48px;
+  }
+  #banner .bnrtxt {
+    margin: 25px 0 0;
+  }
+  #banner .bnrwraper {
+    flex-direction: column-reverse;
+  }
+  #banner .brnrightbox {
+    max-width: 80%;
+    height: 256px;
+  }
+  #banner .brnrightbox .banenerfuture {
+    position: absolute;
+    bottom: 23px;
+    left: -21%;
+    height: 120px;
+  }
+  #banner .bnrtxt h1 {
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 289px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #banner .bnrtxt .note {
+    font-size: 13px;
+    margin-top: 16px;
+    max-width: 327px;
+    line-height: 24px;
+    text-align: center;
+  }
+  #banner .bnrtxt .bannerbtn {
+    margin: 24px auto 0;
+  }
+  #banner .bnrtxt .bannercounter h3 span {
+    font-size: 36px;
+    line-height: 43px;
+  }
+  #banner .bnrtxt .bannercounter h3 p {
+    margin-left: 7px;
+  }
+  #banner .bnrtxt .bannercounter {
+    margin-top: 32px;
+    column-gap: 22px;
+  }
   /* banner end */
 
   /* record start */
@@ -15,22 +84,25 @@
     margin-top: 24px;
   }
 
-  .record-header h4 {
+  .record-header .heading {
     font-size: 24px;
     line-height: 36px;
+    max-width: 327px;
   }
 
-  .record-header p {
+  .record-header .note {
     padding: 0;
+    margin-top: 16px;
+    max-width: 340px;
   }
 
+  .record-header .note span {
+    display: none;
+  }
   .record-item {
     margin-top: 32px;
   }
 
-  .record-item-body p {
-    padding: 0 34px;
-  }
   /* record end */
 
   /* different start */
@@ -41,9 +113,45 @@
   /* popular end */
 
   /* pricing start */
+  #pricing {
+    padding: 56px 0px;
+  }
+  .pricing-header h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  #pricing .pricing-box {
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+  }
+  #pricing .pricing-box .item button {
+    padding: 15px 107px;
+  }
+
+  #pricing .pricing-box .item {
+    margin-bottom: 24px;
+  }
+
   /* pricing end */
 
   /* article start */
+  .article-heading h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .article-heading p {
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .article-item-content h6 {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .article-item-content p {
+    font-size: 11px;
+    line-height: 20px;
+  }
   /* article end */
 
   /* listener start */
@@ -56,6 +164,7 @@
 
 /* small device start */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  /* common css start */
   /* common css end */
   /* nav start */
   /* nav end */
@@ -64,27 +173,24 @@
   /* banner end */
 
   /* record start */
-  #record {
-    padding-top: 40px;
-    margin-top: 24px;
+  .record-header .heading {
+    max-width: 390px;
+    font-size: 29px;
+    line-height: 50px;
   }
-
-  .record-header h4 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-
-  .record-header p {
-    padding: 0;
+  .record-header .note {
+    max-width: 430px;
   }
 
   .record-item {
-    padding: 24px 7px;
+    padding: 24px 25px;
+    max-width: 327px;
   }
 
   .record-item-body p {
-    padding: 0 34px;
+    margin: 0 auto;
   }
+
   /* record end */
 
   /* different start */
@@ -94,6 +200,26 @@
   /* popular end */
 
   /* pricing start */
+  #pricing .pricing-box .item {
+    margin-top: 30px;
+  }
+
+  #pricing .pricing-box .item button {
+    padding: 10px 64px;
+    width: 100%;
+  }
+
+  #pricing .pricing-box .item p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #pricing .pricing-box .item h3 {
+    font-size: 27px;
+  }
+  #pricing .pricing-box .item .item-list ul li {
+    font-size: 14px;
+  }
   /* pricing end */
 
   /* article start */
@@ -106,3 +232,145 @@
   /* footer end */
 }
 /* small device end */
+
+/* Medium device Start */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* nav start */
+  /* nav end */
+
+  /* banner start */
+  /* banner end */
+
+  /* record start */
+  .record-header .heading {
+    max-width: 643px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .record-header .note {
+    font-size: 14px;
+    max-width: 511px;
+  }
+
+  .record-item-body p {
+    margin: 0 auto;
+  }
+
+  /* record end */
+
+  /* different start */
+  /* different end */
+
+  /* popular start */
+  /* popular end */
+
+  /* pricing start */
+
+  #pricing .pricing-box .item {
+    padding: 15px;
+  }
+  #pricing .pricing-box .item {
+    margin-top: 30px;
+  }
+
+  #pricing .pricing-box .item button {
+    padding: 10px 57px;
+    width: 100%;
+  }
+
+  #pricing .pricing-box .item p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #pricing .pricing-box .item h3 {
+    font-size: 25px;
+  }
+  #pricing .pricing-box .item .item-list ul li {
+    font-size: 13px;
+  }
+
+  /* pricing end */
+  /* article start */
+  /* article end */
+
+  /* listener start */
+  /* listener end */
+
+  /* footer start */
+  /* footer end */
+}
+/* Medium device End */
+
+/* Large device Start */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* nav start */
+  /* nav end */
+
+  /* banner start */
+  /* banner end */
+  
+  /* record start */
+  /* record end */
+
+  /* different start */
+  /* different end */
+
+  /* popular start */
+  /* popular end */
+
+  /* pricing start */
+
+  #pricing .pricing-box .item {
+    padding: 15px;
+  }
+  #pricing .pricing-box .item {
+    margin-top: 30px;
+  }
+
+  #pricing .pricing-box .item button {
+    padding: 10px 57px;
+    width: 100%;
+  }
+
+  #pricing .pricing-box .item p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #pricing .pricing-box .item h3 {
+    font-size: 25px;
+  }
+  #pricing .pricing-box .item .item-list ul li {
+    font-size: 13px;
+  }
+
+  /* pricing end */
+
+  /* article start */
+  /* article end */
+
+  /* listener start */
+  /* listener end */
+
+  /* footer start */
+  /* footer end */
+}
+/* Large device End */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* common css end */
+  /* nav start */
+  /* nav end */
+
+  /* banner start */
+  /* banner end */
+
+  /* record start */
+  .record-item-body p {
+    margin: 0 auto;
+  }
+
+  /* record end */
+}
