@@ -119,7 +119,7 @@
     padding: 16px 0 24px 0;
     margin: 0 auto;
     text-align: center;
-}
+  }
   /* different end */
 
   /* popular start */
@@ -171,7 +171,12 @@
   #pricing .pricing-box .item {
     margin-bottom: 24px;
   }
-
+  #pricing .pricing-box .item .button {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 78px;
+  }
   /* pricing end */
 
   /* article start */
