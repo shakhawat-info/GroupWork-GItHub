@@ -106,9 +106,48 @@
   /* record end */
 
   /* different start */
+  .different_left h4 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0 auto 16px;
+    width: 290px;
+    text-align: center;
+  }
+  .different_left p {
+    width: 327px;
+    line-height: 24px;
+    padding: 16px 0 24px 0;
+    margin: 0 auto;
+    text-align: center;
+}
   /* different end */
 
   /* popular start */
+  #popular .title h2 {
+    font-size: 24px;
+    width: 290px;
+    line-height: 36px;
+  }
+  #popular .title p {
+    width: 327px;
+    line-height: 24px;
+    padding: 16px 0 24px 0;
+  }
+  #popular #myTabpopular {
+    justify-content: center;
+    gap: 16px;
+  }
+  #popular #myTabpopular li:nth-child(odd) {
+    width: 140px;
+  }
+  #popular #myTabpopular li:nth-child(even) {
+    width: 110px;
+  }
+  #popular #myTabpopular li:nth-child(odd) button,
+  #popular #myTabpopular li:nth-child(even) button {
+    width: 100%;
+    text-align: center;
+  }
 
   /* popular end */
 
@@ -167,6 +206,7 @@
   }
   #listener .listwraper {
     row-gap: 32px;
+    position: relative;
   }
   #listener .listwraper .listitembox .listitemwrap {
     padding: 0 13px;
@@ -194,8 +234,8 @@
     height: unset;
     position: absolute;
     left: 50%;
+    bottom: -290%;
     transform: translateX(-50%);
-    margin-top: 105%;
   }
   #listener .lisbtn a {
     padding: 18px 34px;
