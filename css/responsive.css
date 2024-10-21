@@ -109,7 +109,7 @@
   /* different end */
 
   /* popular start */
-  
+
   /* popular end */
 
   /* pricing start */
@@ -155,9 +155,63 @@
   /* article end */
 
   /* listener start */
+  #listener {
+    padding: 24px 0 110px;
+  }
+  .heading {
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #listener .listwraper {
+    row-gap: 32px;
+  }
+  #listener .listwraper .listitembox .listitemwrap {
+    padding: 0 13px;
+  }
+  #listener .listwraper .listitembox .listitemwrap .slider,
+  #listener .listwraper .listitemwrap .item,
+  #listener .listwraper .listitemwrap .item img {
+    width: 100%;
+  }
+  #listener .listwraper .listitemwrap .item:last-child,
+  #listener .listwraper .listitemwrap .item:nth-child(2) {
+    display: none;
+  }
+  #listener .listwraper .listitembox .listitemwrap .slidbtn {
+    margin-top: 32px;
+  }
+  #listener .listwraper .listitemwrap .item p {
+    font-size: 13px;
+    line-height: 23px;
+  }
+  #listener .listwraper .listitemwrap .item .profile {
+    margin-top: 26px;
+  }
+  #listener .lisbtn {
+    height: unset;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 105%;
+  }
+  #listener .lisbtn a {
+    padding: 18px 34px;
+    border-color: #fff;
+    color: #fff;
+  }
+
   /* listener end */
 
   /* footer start */
+  #footer {
+    padding: 315px 0 0;
+  }
+  #footer .footwrap {
+    row-gap: 32px;
+  }
   /* footer end */
 }
 /* extra small device end */
@@ -305,12 +359,12 @@
 
 /* Large device Start */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    /* nav start */
+  /* nav start */
   /* nav end */
 
   /* banner start */
   /* banner end */
-  
+
   /* record start */
   /* record end */
 
