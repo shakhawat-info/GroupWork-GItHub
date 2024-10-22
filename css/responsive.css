@@ -37,7 +37,32 @@
   /* different end */
 
   /* popular start */
+  #popular .title h2 {
+    font-size: 24px;
+    width: 327px;
+    line-height: 36px;
+  }
+
+  #popular .title p {
+    font-size: 14px;
+    width: 327px;
+    line-height: 24px;
+  }
+
+  #popular .btn {
+    flex-wrap: wrap;
+  }
   
+  #popular .btn button {
+    width: 143px;
+  }
+  #popular .item {
+    margin: auto;
+   }
+
+   #popular .sidebyside .icon {
+    margin-right: 10px;
+  }
   /* popular end */
 
   /* pricing start */
@@ -91,6 +116,38 @@
   /* different end */
 
   /* popular start */
+  #popular .title h2 {
+    font-size: 40px;
+    width: 421px;
+    line-height: 50px;
+  }
+
+  #popular .title p {
+    font-size: 16px;
+    width: 416px;
+    line-height: 30px;
+  }
+
+  #popular .btn {
+    flex-wrap: wrap;
+  }
+  
+  #popular .btn button {
+    width: 143px;
+  }
+
+  #popular .main {
+    margin-top: 48px;
+    gap: 10px 0;
+}
+  #popular .item {
+    margin: auto;
+   }
+
+  #popular .item {
+    width: 312px;
+    height: 420px;
+   }
   /* popular end */
 
   /* pricing start */
@@ -106,3 +163,90 @@
   /* footer end */
 }
 /* small device end */
+
+
+
+@media (min-width: 767.98px) and (max-width: 992px) {
+
+  /* popular start */
+  #popular .title h2 {
+    font-size: 40px;
+    width: 421px;
+    line-height: 50px;
+  }
+
+  #popular .title p {
+    font-size: 16px;
+    width: 416px;
+    line-height: 30px;
+  }
+
+  #popular .btn {
+    flex-wrap: wrap;
+  }
+  
+  #popular .btn button {
+    width: 143px;
+  }
+
+  #popular .main {
+    margin-top: 48px;
+    gap: 10px 0;
+}
+  #popular .item {
+    margin: auto;
+   }
+
+   #popular .item {
+    width: 340px;
+    height: 450px;
+   }
+
+   #popular .sidebyside .icon {
+    margin-right: 10px;
+  }
+  /* popular end */
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+ /* popular start */
+ #popular .title h2 {
+  font-size: 40px;
+  width: 421px;
+  line-height: 50px;
+}
+
+#popular .title p {
+  font-size: 16px;
+  width: 416px;
+  line-height: 30px;
+}
+
+#popular .btn {
+  flex-wrap: wrap;
+}
+
+#popular .btn button {
+  width: 143px;
+}
+
+#popular .main {
+  margin-top: 48px;
+  gap: 10px 0;
+}
+#popular .item {
+  margin: auto;
+ }
+
+ #popular .item {
+  width: 320px;
+  height: 418px;
+ }
+
+ #popular .sidebyside .icon {
+  margin-right: 10px;
+}
+/* popular end */
+}

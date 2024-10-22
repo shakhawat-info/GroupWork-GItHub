@@ -351,10 +351,6 @@ button {
   }
 }
 
-.col-lg-3 {
-  flex: 0 0 auto;
-  width: 23.5%;
-}
 
 #popular .main {
   margin-top: 48px;
@@ -363,6 +359,8 @@ button {
 #popular .item {
   background-color: #fff;
   margin-bottom: 24px;
+  width: 282px;
+  height: 360px;
 }
 
 #popular .item img {
@@ -385,7 +383,7 @@ button {
   color: #898998;
   margin: 10px 0 24px;
 }
-#popular .sidebyside .icon  {
+#popular .sidebyside .icon {
   border-top: 2px solid #7678ed;
   border-left: 2px solid #7678ed;
   border-right: 2px solid #F2F2F2;
@@ -395,6 +393,7 @@ button {
   height: 48px;
   display: flex;
   position: relative;
+  margin-right: 5px;
 }
 #popular .sidebyside .icon ion-icon {
   font-size: 25px;
@@ -404,6 +403,19 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
 } 
+#popular .button {
+  text-align: center;
+  margin-top: 48px;
+}
+#popular .button a button {
+  padding: 18px 40px;
+  font-size: 16px;
+  font-weight: 500;
+  border-color: #7678ED;
+  border: 1px solid #7678ED;
+  background: none;
+  color: #7678ED;
+}
 /* popular end */
 
 /* pricing start */
