@@ -351,8 +351,14 @@ button {
   }
 }
 
+.col-lg-3 {
+  flex: 0 0 auto;
+  width: 23.5%;
+}
+
 #popular .main {
   margin-top: 48px;
+  gap: 24px;
 }
 #popular .item {
   background-color: #fff;
@@ -380,7 +386,10 @@ button {
   margin: 10px 0 24px;
 }
 #popular .sidebyside .icon  {
-  border: 1px solid #7678ED;
+  border-top: 2px solid #7678ed;
+  border-left: 2px solid #7678ed;
+  border-right: 2px solid #F2F2F2;
+  border-bottom: 2px solid #F2F2F2;
   border-radius: 50%;
   width: 48px;
   height: 48px;
